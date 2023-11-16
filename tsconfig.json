@@ -1,0 +1,29 @@
+{
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./lib",
+    "target": "es2018",
+    "composite": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}   
